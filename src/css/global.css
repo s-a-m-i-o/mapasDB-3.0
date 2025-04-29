@@ -1,0 +1,97 @@
+.card {
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.itaquera {
+    color: green;
+}
+.jb {
+    color: blue;
+}
+.parque {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+table {
+    width: 100%;
+    padding: 2px;
+}
+
+table i {
+    color: red;
+}
+
+th.verde{
+    background-color: green;
+    border-radius: 3px;
+    text-align: center;
+}
+
+th.azul{
+    background-color: blue;
+    border-radius: 3px;
+    text-align: center;
+}
+
+th.vermelho{
+    background-color: red;
+    border-radius: 3px;
+    text-align: center;
+}
+
+td.linha-branca {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+td.linha-verde {
+    border: 1px solid green;
+    border-radius: 3px;
+    text-align: center;
+}
+
+td.linha-azul {
+    border: 1px solid blue;
+    border-radius: 3px;
+    text-align: center;
+}
+
+td.linha-vermelha {
+    border: 1px solid red;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.previa-confirmado img,
+.previa-confimar img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.voltar a {
+    background-color: var( --logo);
+    padding: 5px 15px;
+}
+
+.azul-gambiarra {
+    color: rgb(78, 78, 248);
+}

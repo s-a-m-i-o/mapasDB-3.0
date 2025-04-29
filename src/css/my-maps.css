@@ -1,0 +1,33 @@
+.conteudo-geral .maps-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.conteudo-geral .maps-google .my-maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: auto;
+}
+
+.conteudo-geral .maps-google .my-maps iframe {
+    width: 300px;
+    height: 450px;
+}
+
+.conteudo-geral .maps-google .my-maps .titulo-itaquera {
+    background-color: green;
+    width: 100%;
+}
+.conteudo-geral .maps-google .my-maps .titulo-jb {
+    background-color: blue;
+    width: 100%;
+}
+.conteudo-geral .maps-google .my-maps .titulo-parque {
+    background-color: red;
+    width: 100%;
+}

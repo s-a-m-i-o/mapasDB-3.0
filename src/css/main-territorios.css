@@ -1,0 +1,102 @@
+.conteudo-geral .conteudo img.dia-noite {
+    width: 50px;
+    margin-top: 15px;
+}
+
+.conteudo-geral .conteudo .descricao {
+    width: 100%;
+    padding: 0 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-geral .conteudo .descricao h2 {
+    align-items: center;
+    margin: 15px;
+}
+
+.conteudo-geral .conteudo .descricao .descricao-card p {
+    margin: 10px 0px;
+}
+
+.conteudo-geral .conteudo .descricao .descricao-card i {
+    font-size: 1.2rem;
+}
+
+section.cards-mapa img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.todos-enderecos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px 4%;
+}
+
+.todos-enderecos .botoes {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--jwmenu);
+    width: 90%;
+    gap: 1rem;
+}
+
+.todos-enderecos .botoes a {
+    padding: 7px 15px;
+    border: 2px solid var(--logo);
+    border-radius: 3px;
+    
+}
+
+.todos-enderecos .enderecos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.enderecos .nao-bater {
+    background-color: #5d1818;
+    width: 95%;
+    padding: 10px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.enderecos .nao-bater .item-nao-bater {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.enderecos .nao-bater p {
+    background-color: #d9d9d9;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    flex: auto;
+    border-radius: 7px;
+}
+
+section.enderecos.oculto {
+    display: none !important;
+}
+
+section.oculto {
+    display: none !important;
+}
