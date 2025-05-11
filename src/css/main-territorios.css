@@ -64,6 +64,7 @@ section.cards-mapa img {
     align-items: center;
     justify-content: center;
     gap: 1px;
+    width: 100%;
 }
 
 .enderecos .nao-bater {

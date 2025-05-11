@@ -95,3 +95,12 @@ td.linha-vermelha {
 .azul-gambiarra {
     color: rgb(78, 78, 248);
 }
+
+.previa-confirmado {
+    width: 95%;
+}
+
+.previa-confirmado iframe {
+    width: 100%;
+    height: 400px;
+}
