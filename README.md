@@ -1,6 +1,6 @@
 # 🧭 Site de Territórios - Congregação de Língua de Sinais Dom Bosco
 
-Este é um projeto desenvolvido especialmente para **a Congregação de Língua de Sinais Dom Bosco**, com o objetivo de **facilitar o trajeto dos irmãos durante as pregações**. O site reúne os endereços organizados de forma clara e acessível, pensado para ajudar no deslocamento e na organização das visitas.
+Este é um projeto desenvolvido especialmente para **a Congregação de Língua de Sinais Dom Bosco**, com o objetivo de **facilitar o trajeto dos irmãos durante a pregação**. O site reúne os endereços organizados de forma clara e acessível, pensado para ajudar no deslocamento e na organização das visitas.
 
 ## ✨ Objetivo
 
