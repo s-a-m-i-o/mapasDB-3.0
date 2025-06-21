@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="./src/css/main-territorios.css">
     <script defer src="./src/js/menu-hamburger.js"></script>
 </head>
+
 <body>
 
     <header class="header-desktop">
@@ -22,13 +24,15 @@
         <nav class="navegacao">
             <a href="./index.html" class="link-item"><i class="bi bi-house-door"></i>inicio</a>
             <a href="./mymaps.html" class="link-item"><i class="bi bi-crosshair"></i>My maps</a>
-            <a href="https://wol.jw.org/bzs/wol/binav/r402/lp-lsb/nwt" class="link-item" target="_blank"><i class="bi bi-book"></i>Biblia</a>
-            <a href="https://wol.jw.org/bzs/wol/library/r402/lp-lsb/todas-as-publica%C3%A7%C3%B5es" class="link-item" target="_blank"><i class="bi bi-collection-play"></i>Publicações</a>
+            <a href="https://wol.jw.org/bzs/wol/binav/r402/lp-lsb/nwt" class="link-item" target="_blank"><i
+                    class="bi bi-book"></i>Biblia</a>
+            <a href="https://wol.jw.org/bzs/wol/library/r402/lp-lsb/todas-as-publica%C3%A7%C3%B5es" class="link-item"
+                target="_blank"><i class="bi bi-collection-play"></i>Publicações</a>
             <a href="https://www.jw.org/bzs/" class="link-item jw" target="_blank">JW</a>
         </nav>
     </header>
-    
-    
+
+
     <div class="btn-abrir-menu" id="btn-menu">
         <i class="bi bi-list"></i>
     </div>
@@ -36,7 +40,7 @@
         <img src="./src/img/logo-roxo.png" alt="">
     </a>
     <header class="menu-mobile" id="menu-mobile">
-        
+
         <div class="btn-fechar">
             <i class="bi bi-x-lg"></i>
         </div>
@@ -57,7 +61,8 @@
                 <li>
                     <a href="./c-parque/paquer.html">Parque do Carmo</a>
                 <li>
-                    <a href="https://wol.jw.org/bzs/wol/binav/r402/lp-lsb/nwt" class="link-menu-mobile" target="_blank">Biblia</a>
+                    <a href="https://wol.jw.org/bzs/wol/binav/r402/lp-lsb/nwt" class="link-menu-mobile"
+                        target="_blank">Biblia</a>
                 </li>
                 <li>
                     <a href="https://wol.jw.org/bzs/wol/library/r402/lp-lsb/todas-as-publica%C3%A7%C3%B5es"
@@ -76,7 +81,8 @@
     <main>
         <section class="conteudo-geral">
             <div class="conteudo card">
-                <a href="./a-itaquera/itaquera.html"><img src="./src/img/Itaquera.png" alt="Territórios SL Dom Bosco"></a>
+                <a href="./a-itaquera/itaquera.html"><img src="./src/img/Itaquera.png"
+                        alt="Territórios SL Dom Bosco"></a>
                 <div class="descricao">
                     <h2>Itaquera</h2>
                     <div class="descricao-card">
@@ -87,7 +93,8 @@
                 </div>
             </div>
             <div class="conteudo card">
-                <a href="./b-josebonifacio/jose-bonifacio.html"><img src="./src/img/joseb.png" alt="Territórios SL Dom Bosco"></a>
+                <a href="./b-josebonifacio/jose-bonifacio.html"><img src="./src/img/joseb.png"
+                        alt="Territórios SL Dom Bosco"></a>
                 <div class="descricao">
                     <h2>José Bonifácio</h2>
                     <div class="descricao-card">
@@ -110,13 +117,23 @@
             </div>
         </section>
     </main>
-    
+
     <div class="voltar">
         <a href="./index.html" class="btn-voltar">Voltar</a>
     </div>
 
     <footer>
-        <p class="evento">Territórios da congregação Ls Dom Bosco &copy;</p>
+        <div id="aviso-container"></div>
+
+        <p class="ls-db">Territórios da congregação
+            <a href="https://apps.jw.org/..." target="_blank" class="link-local">
+                Ls Dom Bosco &copy;
+            </a>
+        </p>
     </footer>
+
+    <script src="injetar-aviso.js"></script>
+
 </body>
+
 </html>

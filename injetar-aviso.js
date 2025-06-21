@@ -1,5 +1,5 @@
 
-fetch('aviso.html')
+fetch('/aviso.html')
     .then(res => res.text())
     .then(html => {
         document.getElementById('aviso-container').innerHTML = html;
